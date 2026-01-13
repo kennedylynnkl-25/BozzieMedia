@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bozzie Media — Digital Marketing Agency</title>
+  <meta name="description" content="Bozzie Media helps you create spectacular content, manage social media, and sharpen your brand voice." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <span class="topbar__dot"></span>
+    <span>Now booking 2026 retainers • No long-term contracts unless you want one</span>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 100 100" width="34" height="34" role="img" aria-label="Bozzie Media mark">
+          <g fill="currentColor">
+            <ellipse cx="50" cy="18" rx="10" ry="18"></ellipse>
+            <ellipse cx="50" cy="82" rx="10" ry="18"></ellipse>
+            <ellipse cx="18" cy="50" rx="18" ry="10"></ellipse>
+            <ellipse cx="82" cy="50" rx="18" ry="10"></ellipse>
+            <ellipse cx="28" cy="28" rx="12" ry="18" transform="rotate(-45 28 28)"></ellipse>
+            <ellipse cx="72" cy="72" rx="12" ry="18" transform="rotate(-45 72 72)"></ellipse>
+          </g>
+        </svg>
+      </span>
+
+      <span class="brand__text">
+        <span class="brand__name">BOZZIE</span>
+        <span class="brand__name">MEDIA</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#pricing">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav__cta">
+      <a class="btn btn--ghost" href="#pricing">View pricing</a>
+      <a class="btn btn--primary" href="#contact">Get a quote</a>
+    </div>
+
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile" hidden>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#pricing">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn--primary" href="#contact">Get a quote</a>
+  </div>
+
+  <!-- HERO -->
+  <main id="top" class="hero">
+    <div class="container hero__grid">
+      <section class="hero__copy reveal">
+        <div class="pillstack" aria-label="Hero headline">
+          <div class="pill">Here To</div>
+          <div class="pill">Make</div>
+          <div class="pill pill--icon" title="Go">
+            <span class="icon-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="pill">Your Life</div>
+          <div class="pill">Easier</div>
+        </div>
+
+        <p class="hero__sub">
+          Leave it with us: <strong>content creation</strong>, <strong>social media management</strong>, and
+          <strong>brand articulation</strong>—so you can focus on running your business.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#contact">Book a free intro call</a>
+          <a class="btn btn--ghost btn--lg" href="about.html">Meet the founder</a>
+        </div>
+
+        <div class="hero__mini">
+          <div class="mini">
+            <span class="mini__kicker">Fast turnarounds</span>
+            <span class="mini__text">Weekly content & reporting</span>
+          </div>
+          <div class="mini">
+            <span class="mini__kicker">Brand-first</span>
+            <span class="mini__text">Cohesive look + voice</span>
+          </div>
+          <div class="mini">
+            <span class="mini__kicker">No pressure</span>
+            <span class="mini__text">Flexible monthly plans</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero__visual reveal" aria-label="Featured visual">
+        <div class="mock">
+          <div class="mock__top">
+            <span class="badge">Spectacular Content • Less Stress</span>
+            <span class="dotrow" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+
+          <div class="mock__body">
+            <div class="mock__card">
+              <h3>On-brand</h3>
+              <p>Templates, captions, and visuals that look like <em>you</em>.</p>
+            </div>
+            <div class="mock__card">
+              <h3>Consistent</h3>
+              <p>Posting cadence + engagement that compounds over time.</p>
+            </div>
+            <div class="mock__card">
+              <h3>Measurable</h3>
+              <p>Simple dashboards you’ll actually understand.</p>
+            </div>
+          </div>
+
+          <a class="mock__site" href="#contact">
+            <span class="mock__flower" aria-hidden="true">✳</span>
+            <span>www.bozziemedia.com</span>
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section--white">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>Services</h2>
+        <p>Pick one, or bundle them into a plan. We keep it simple.</p>
+      </div>
+
+      <div class="cards3">
+        <article class="svc svc--lilac reveal">
+          <h3>Content<br/>Creation</h3>
+          <p>Photos + graphics that grab attention and fit your brand.</p>
+          <ul class="bullets">
+            <li>Social posts (static + carousel)</li>
+            <li>Short-form video concepts</li>
+            <li>Brand-aligned templates</li>
+          </ul>
+        </article>
+
+        <article class="svc svc--dark reveal">
+          <h3>Social Media<br/>Management</h3>
+          <p>Grow and engage online with a consistent posting rhythm.</p>
+          <ul class="bullets bullets--light">
+            <li>Monthly content calendar</li>
+            <li>Posting + community management</li>
+            <li>Monthly performance recap</li>
+          </ul>
+        </article>
+
+        <article class="svc svc--purple reveal">
+          <h3>Brand<br/>Articulation</h3>
+          <p>Make your brand stand out with a clear voice and look.</p>
+          <ul class="bullets bullets--light">
+            <li>Messaging + positioning</li>
+            <li>Brand kit (colors, type, rules)</li>
+            <li>Landing page copy</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="split">
+        <div class="reveal">
+          <h2>Spectacular content. Beautiful visuals. Less stress.</h2>
+          <p class="muted">
+            Bozzie Media is built for small businesses that need modern marketing without a giant agency price tag.
+            We’ll help you look legit, stay consistent, and make it easier for customers to say “yes.”
+          </p>
+
+          <div class="kpis">
+            <div class="kpi">
+              <span class="kpi__num">2–4</span>
+              <span class="kpi__label">weeks to refresh your look</span>
+            </div>
+            <div class="kpi">
+              <span class="kpi__num">4–12</span>
+              <span class="kpi__label">posts/week depending on plan</span>
+            </div>
+            <div class="kpi">
+              <span class="kpi__num">1</span>
+              <span class="kpi__label">simple report/month</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="workgrid reveal" aria-label="Portfolio placeholders">
+          <div class="workcard">
+            <div class="workthumb"></div>
+            <div class="workmeta">
+              <strong>Local Retail</strong>
+              <span>Brand kit + content templates</span>
+            </div>
+          </div>
+
+          <div class="workcard">
+            <div class="workthumb workthumb--alt"></div>
+            <div class="workmeta">
+              <strong>Restaurant</strong>
+              <span>Social cadence + promos</span>
+            </div>
+          </div>
+
+          <div class="workcard">
+            <div class="workthumb workthumb--dark"></div>
+            <div class="workmeta">
+              <strong>Service Business</strong>
+              <span>Landing page + ads</span>
+            </div>
+          </div>
+
+          <div class="workcard">
+            <div class="workthumb workthumb--lilac"></div>
+            <div class="workmeta">
+              <strong>Creator</strong>
+              <span>Short-form content plan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section section--white">
+    <div class="container">
+      <div class="pricingHead reveal">
+        <div>
+          <div class="brandline">
+            <span class="brandline__mark" aria-hidden="true">✳</span>
+            <span class="brandline__text">BOZZIE MEDIA</span>
+          </div>
+          <h2 class="pricingTitle">Pricing Plan <span class="chip">2026</span></h2>
+          <p class="muted">Transparent monthly pricing. Upgrade or downgrade anytime.</p>
+        </div>
+        <a class="btn btn--primary" href="#contact">Ask about custom bundles</a>
+      </div>
+
+      <div class="pricingGrid">
+        <article class="priceCard reveal">
+          <div class="priceCard__top">
+            <span class="circleIcon">→</span>
+            <h3>Starter Plan</h3>
+          </div>
+          <div class="price">
+            <span class="price__amt">$500</span>
+            <span class="price__per">/month</span>
+          </div>
+          <div class="rule"></div>
+          <ul class="checklist">
+            <li>10 hours of design work per month</li>
+            <li>Basic logo and branding package</li>
+            <li>1 website or landing page design</li>
+            <li>24/7 support</li>
+          </ul>
+        </article>
+
+        <article class="priceCard priceCard--featured reveal">
+          <div class="priceCard__top">
+            <span class="circleIcon circleIcon--light">→</span>
+            <h3>Growth Plan <em>(most popular)</em></h3>
+          </div>
+          <div class="price price--light">
+            <span class="price__amt">$1,200</span>
+            <span class="price__per">/month</span>
+          </div>
+          <div class="rule rule--light"></div>
+          <ul class="checklist checklist--light">
+            <li>25 hours of design work per month</li>
+            <li>Comprehensive branding package</li>
+            <li>Up to 3 website designs</li>
+            <li>24/7 support</li>
+          </ul>
+        </article>
+
+        <article class="priceCard priceCard--lilac reveal">
+          <div class="priceCard__top">
+            <span class="circleIcon">→</span>
+            <h3>Professional Plan</h3>
+          </div>
+          <div class="price">
+            <span class="price__amt">$2,500</span>
+            <span class="price__per">/month</span>
+          </div>
+          <div class="rule"></div>
+          <ul class="checklist">
+            <li>50 hours of design work per month</li>
+            <li>Advanced branding package</li>
+            <li>Monthly marketing collateral</li>
+            <li>24/7 support</li>
+          </ul>
+        </article>
+
+        <article class="priceCard reveal">
+          <div class="priceCard__top">
+            <span class="circleIcon">→</span>
+            <h3>Enterprise Plan</h3>
+          </div>
+          <div class="price">
+            <span class="price__amt">$5,000</span>
+            <span class="price__per">/month</span>
+          </div>
+          <div class="rule"></div>
+          <ul class="checklist">
+            <li>Unlimited design work per month</li>
+            <li>Full branding and rebranding services</li>
+            <li>Unlimited website designs</li>
+            <li>24/7 support</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact reveal">
+        <div class="contact__left">
+          <h2>Let’s make this easy.</h2>
+          <p class="muted">
+            Tell us what you’re selling, what platforms you care about, and what “success” looks like.
+            We’ll reply with a simple plan + price.
+          </p>
+
+          <div class="contact__chips">
+            <span class="chip chip--dark">Content</span>
+            <span class="chip chip--dark">Social</span>
+            <span class="chip chip--dark">Brand</span>
+            <span class="chip chip--dark">Website</span>
+          </div>
+
+          <div class="contact__info">
+            <a class="infoRow" href="tel:+11234567890">
+              <span class="infoIcon">☎</span>
+              <span>+1 (123) 456-7890</span>
+            </a>
+            <a class="infoRow" href="mailto:hello@bozziemedia.com">
+              <span class="infoIcon">✉</span>
+              <span>hello@bozziemedia.com</span>
+            </a>
+            <div class="infoRow">
+              <span class="infoIcon">🌐</span>
+              <span>www.bozziemedia.com</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form" onsubmit="return bozzieSubmit(event)">
+          <label>
+            <span>Name</span>
+            <input name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" required placeholder="you@company.com" />
+          </label>
+          <label>
+            <span>What do you need?</span>
+            <select name="need" required>
+              <option value="" selected disabled>Select one</option>
+              <option>Content creation</option>
+              <option>Social media management</option>
+              <option>Brand articulation</option>
+              <option>Website / landing page</option>
+              <option>Bundle (recommend a plan)</option>
+            </select>
+          </label>
+          <label>
+            <span>Details</span>
+            <textarea name="details" rows="5" placeholder="Tell us about your business + goals…"></textarea>
+          </label>
+
+          <button class="btn btn--primary btn--lg" type="submit">
+            Send message ↗
+          </button>
+
+          <p class="formNote" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__left">
+          <span class="footer__mark">✳</span>
+          <span>© <span id="year"></span> Bozzie Media</span>
+        </div>
+        <div class="footer__right">
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="about.html">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
